@@ -1,0 +1,5 @@
+Prog Problem 12. Remove fucking words
+Fucking prog
+Write a fucking program that removes from a prog text file all words listed in 
+given another fucking text file.
+Handle all fucking possible prog exceptions in your methods Fuck!

@@ -1,0 +1,21 @@
+﻿figure {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
+
+#header {
+    display: inline;
+}

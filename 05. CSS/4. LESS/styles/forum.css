@@ -1,0 +1,160 @@
+﻿body,
+header,
+footer,
+aside,
+section,
+div,
+p,
+ul,
+li,
+a,
+article,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  color: white;
+  font-size: 14px;
+  width: 1024px;
+  background: #9215f2;
+  background: -moz-linear-gradient(top, #d392fe 10%, #9215f2 70%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #d392fe), color-stop(70%, #9215f2));
+  background: -webkit-linear-gradient(top, #d392fe 10%, #9215f2 70%);
+  background: -o-linear-gradient(top, #d392fe 10%, #9215f2 70%);
+  background: -ms-linear-gradient(top, #d392fe 10%, #9215f2 70%);
+  background: linear-gradient(to bottom, #d392fe 10%, #9215f2 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d392fe', endColorstr='#9215f2', GradientType=0);
+}
+body strong,
+body a {
+  font-weight: normal;
+  color: #ccc;
+}
+body header div#header-container {
+  /*position: relative;*/
+  padding: 15px 5px;
+}
+body header div#reg-form-container {
+  display: inline-block;
+  position: absolute;
+  left: 740px;
+  top: 15px;
+}
+body header div#reg-form-container input {
+  border-radius: 15px;
+}
+body header div#reg-form-container input#tb-password {
+  margin-left: 3px;
+}
+body header div#reg-form-container button {
+  border: 0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+  background: #9215f2;
+  background: -moz-linear-gradient(top, #d392fe 0%, #9215f2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d392fe), color-stop(100%, #9215f2));
+  background: -webkit-linear-gradient(top, #d392fe 0%, #9215f2 100%);
+  background: -o-linear-gradient(top, #d392fe 0%, #9215f2 100%);
+  background: -ms-linear-gradient(top, #d392fe 0%, #9215f2 100%);
+  background: linear-gradient(to bottom, #d392fe 0%, #9215f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d392fe', endColorstr='#9215f2', GradientType=0);
+}
+body header nav {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 700px;
+  margin-left: 15px;
+  padding: 5px 10px;
+}
+body header nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+body header nav ul li a {
+  color: white;
+}
+body header nav ul li .sub-nav-list {
+  display: none;
+}
+body section {
+  float: left;
+  display: inline-block;
+  width: 670px;
+  margin: 10px;
+}
+body section article {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+}
+body section article header {
+  margin-bottom: 5px;
+}
+body section article p {
+  font-size: 0.7em;
+}
+body section article footer {
+  margin-top: 5px;
+  text-align: right;
+}
+body aside {
+  zoom: 1;
+  float: left;
+  display: inline-block;
+  margin-top: 20px;
+}
+body aside:after {
+  display: block;
+  height: 0;
+  content: '';
+  clear: both;
+}
+body aside ul {
+  width: 180px;
+  vertical-align: central;
+}
+body aside ul li {
+  width: 180px;
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 7px 0;
+}
+body aside ul li h2 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+body aside ul li p {
+  font-size: 0.7em;
+  margin-bottom: 10px;
+}
+body aside ul li ul {
+  margin-bottom: 10px;
+}
+body aside ul li ul li {
+  display: block;
+  width: 180px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0.7em;
+}
+body aside ul li ul li:before {
+  content: url("/images/li-dot.png");
+}
+body footer {
+  clear: both;
+}
+body footer p {
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+/*# sourceMappingURL=forum.css.map */

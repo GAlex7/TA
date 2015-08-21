@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE6C4A92-5E78-4AA3-B3CB-7C09E012F536}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MonopolyGame</RootNamespace>
+    <AssemblyName>MonopolyGame</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Classes\Actions\Contracts\BaseRentAction.cs" />
+    <Compile Include="Model\Classes\Actions\Contracts\IAction.cs" />
+    <Compile Include="Model\Classes\Actions\Contracts\IChoosableAction.cs" />
+    <Compile Include="Model\Classes\Actions\Contracts\IBuyable.cs" />
+    <Compile Include="Model\Classes\Actions\Contracts\IRentable.cs" />
+    <Compile Include="Model\Classes\Actions\Contracts\ISellable.cs" />
+    <Compile Include="Model\Classes\Actions\Contracts\ITaxable.cs" />
+    <Compile Include="Model\Classes\Actions\BuyAction.cs" />
+    <Compile Include="Model\Classes\Actions\LoseAction.cs" />
+    <Compile Include="Model\Classes\Actions\SellAction.cs" />
+    <Compile Include="Model\Classes\Actions\StationRentAction.cs" />
+    <Compile Include="Model\Classes\Actions\StreetRentAction.cs" />
+    <Compile Include="Model\Classes\Actions\TaxAction.cs" />
+    <Compile Include="Model\Classes\Actions\WinAction.cs" />
+    <Compile Include="Model\Classes\Cards\Contracts\Card.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Model\Classes\Board.cs" />
+    <Compile Include="Model\Classes\Cards\ChanceCard.cs" />
+    <Compile Include="Model\Classes\Tiles\FreeParking.cs" />
+    <Compile Include="Model\Common\CustomExceptions\MonopolyArgumentException.cs" />
+    <Compile Include="Model\Common\CustomExceptions\MonopolyException.cs" />
+    <Compile Include="Model\Common\CustomExceptions\MonopolyOutOfRangeException.cs" />
+    <Compile Include="Model\Common\CustomExceptions\PlayerBankruptException.cs" />
+    <Compile Include="Model\Engine\Contracts\IEngine.cs" />
+    <Compile Include="Model\Engine\Engine.cs" />
+    <Compile Include="Model\Classes\Tiles\ChanceTile.cs" />
+    <Compile Include="Model\Classes\Cards\CommunityCard.cs" />
+    <Compile Include="Model\Classes\Tiles\CommunityTile.cs" />
+    <Compile Include="Model\Classes\Tiles\Contracts\ChoosableActionTile.cs" />
+    <Compile Include="Model\Classes\Tiles\GoToJailTile.cs" />
+    <Compile Include="Model\Classes\Tiles\JailTile.cs" />
+    <Compile Include="Model\Classes\Tiles\Contracts\PropertyTile.cs" />
+    <Compile Include="Model\Classes\Tiles\StartTile.cs" />
+    <Compile Include="Model\Classes\Tiles\StationTile.cs" />
+    <Compile Include="Model\Classes\Tiles\TaxTile.cs" />
+    <Compile Include="Model\Classes\Dice.cs" />
+    <Compile Include="Model\Classes\Player.cs" />
+    <Compile Include="Model\Classes\Tiles\StreetTile.cs" />
+    <Compile Include="Model\Common\Helpers\CardHelpers.cs" />
+    <Compile Include="Model\Common\Validators\ObjectValidator.cs" />
+    <Compile Include="Model\Delegates\Delegates.cs" />
+    <Compile Include="Model\Enumerations\CardType.cs" />
+    <Compile Include="Model\Enumerations\DistrictColor.cs" />
+    <Compile Include="Model\Classes\Tiles\Contracts\Tile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

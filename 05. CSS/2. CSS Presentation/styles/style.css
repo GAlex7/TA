@@ -1,0 +1,10 @@
+﻿div {
+    background: #000;
+    border-radius: 100px;
+    border: 1px solid red;
+    padding-right: 6%;
+}
+
+#hiden {
+    display: none;
+}

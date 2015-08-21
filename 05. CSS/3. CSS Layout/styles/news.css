@@ -1,0 +1,71 @@
+﻿div {
+    display: inline-block;
+    width: 95%;
+    margin: 0;
+    padding: 3px;
+    background-color: #1E3741;
+    font-family: 'Arial';
+    border-radius: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+    header nav ul li {
+        background-color: #4B5F67;
+        padding: 5px 10px;
+        display: inline;
+    }
+
+        header nav ul li#active-nav {
+            background: none;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #93ACA9;
+        }
+
+            header nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+        header nav ul li#active-nav a {
+            color: #ffffff;
+        }
+
+section ul {
+    list-style-type: none;
+    color: #A5AFB3;
+    width: 300px;
+    float: left;
+    padding-left: 0;
+}
+
+    section ul li {
+        padding: 5px;
+        border-radius: 1px;
+    }
+
+        section ul li:hover {
+            cursor: pointer;
+            background-color: #465F69;
+        }
+
+        section ul li:not(:first-child) {
+            border: 0 solid #3A4F58;
+            border-width: 1px 0 0 0;
+            padding: 5px;
+        }
+
+        section ul li#active-news {
+            background-color: #00968C;
+            color: #ffffff;
+        }
+
+section img {
+    margin-top: 10px;
+    float: left;
+}

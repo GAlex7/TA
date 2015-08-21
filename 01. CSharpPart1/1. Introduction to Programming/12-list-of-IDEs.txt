@@ -1,0 +1,29 @@
+﻿Eclipse
+
+Languages: C, C++, Python, Perl, PHP, Java, Ruby and more
+
+Eclipse is the free and open-source editor upon which many development frameworks are based. It's one of the granddaddies in its field and comes highly recommended by many a professional developer. Eclipse began as a Java development environment and has greatly expanded through a system of lightweight plugins.
+
+NetBeans
+
+Languages: Java, JavaScript, PHP, Python, Ruby, C, C++ and more
+
+NetBeans is neck-and-neck with Eclipse as the most-recommended IDE in this category. It's free and open-source, supports tons of languages with more plugins coming all the time, and is incredibly simple to install and use, even for a beginner.
+
+Komodo
+
+Languages: Perl, Python, Tcl, PHP, Ruby, Javascript and more
+
+This enterprise-level tool might be best for the pro developer because of its higher price point. For beginners, you might also want to check out the Komodo-based, FOSS editor Open Komodo or Komodo's FOSS version, Komodo Edit.
+
+Visual Studio
+
+Languages: Visual C++, VB.NET, C#, F# and others
+
+Visual Studio is Microsoft's IDE. If you're building Silverlight apps or planning on working in a .NET shop (such as MySpace), you may want to spend some time with Visual Studio. Visual Basic has some support for non-Microsoft languages such as Python and Ruby, but you'll have to install those services yourself. A free, limited-time trial version is available.
+
+CodeRun
+
+Languages: ASP.NET, PHP, Ajax, C#, JavaScript, CSS, HTML and more
+
+This broswer-based IDE works in Chrome, Firefox, Safari and even good old Internet Explorer. Like the more robust multi-language IDEs, CodeRun supports Visual Studio projects and .NET languages. Best of all, your code is sharable via hyperlinks; it's even got built-in social sharing tools, should you want to tweet your code.

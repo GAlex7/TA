@@ -1,0 +1,83 @@
+﻿body {
+    font-family: Candara, Corbel;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+    header nav {
+        display: inline;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+        header nav a {
+            font-family: 'Arial Black';
+            margin: 3px;
+            color: #05B4F1;
+        }
+
+section {
+    width: 90%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+    section > div {
+        width: 512px;
+        border: 1px solid #000000;
+        /*overflow: auto;*/
+        padding: 3px;
+        margin: 10px;
+        float: left;
+        position: relative;
+    }
+
+fieldset {
+    margin: 0 1px 0;
+    padding: 0;
+    display: inline-block;
+    width: 250px;
+    float: left;
+}
+
+    fieldset legend {
+        margin: 0 20px;
+    }
+
+    fieldset img {
+        width: 120px;
+        height: 70px;
+        margin: 5px;
+        float: left;
+    }
+
+    fieldset > p {
+        display: inline-block;
+        margin: 5px;
+        width: 80px;
+    }
+
+        fieldset > p:first-of-type {
+            margin-top: 20px;
+        }
+
+        fieldset > p:last-of-type {
+            display: inline-block;
+            margin: 5px 10px 5px;
+            width: 100%;
+            text-align: center;
+        }
+
+aside {
+    width: 200px;
+    float: left;
+    position: absolute;
+    left:550px;
+    top:30%;
+    vertical-align: bottom;
+}

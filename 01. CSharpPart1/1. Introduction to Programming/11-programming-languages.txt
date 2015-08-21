@@ -1,0 +1,19 @@
+﻿Java
+
+Oracle's Java is one of the web's longest standing, persistent, and influential programming languages. It's a deeply featured class-based, object-oriented programming language that's designed to be portable and workable on as many platforms as possible. For that reason, it's also one of the world's most popular programming languages.
+
+Ruby
+
+Ruby is a dynamic, open-source, object-oriented programming language developed by computer scientist Yukihiro Matsumoto back in the 90s, which makes it one of the youngest languages in broad use, much less in this roundup. It was designed to have syntax that was easy to read and to write by mere humans, without necessarily needing to learn a massive base of commands and specialized "vocabulary" in order to get started. While the language itself is object-oriented, it also supports procedural, functional, and imperative programming, one of the factors that makes it remarkably flexible.
+
+Python
+
+Python is usually used and referred to as a scripting language, allowing programmers to churn out large quantities of easily readable and functional code in short periods of time, but it's also dynamic, and supports object-oriented, procedural, and functional programming styles, among others. Thanks to its flexibility, Python is one of the most widely used high-level programming languages today.
+
+C/C++
+
+C, for its part, is an extremely widely-used, general purpose, imperative programming language that's heavily influenced almost every language that's followed it. C++ on the other hand took things a step further, added object-oriented features like classes to the language, along with virtual functions and templates. C++ is another of the world's most popular programming languages, and is still in wide use today in everything from video games to productivity software. C++ is a bit more difficult to pick up than C. They're both some of the most foundational languages in computer science and programming.
+
+JavaScript
+
+JavaScript, not to be confused with Java, is a scripting language that was developed in the 90s by Brendan Eich, formerly of Netscape Communications and now of the Mozilla Foundation. JavaScript is one of the fundamental technologies on which the web as we know it is based. The language itself is dynamic, and gives programmers the flexibility to use object-oriented programming styles (as the language itself is mostly object oriented) as well as functional and imperative ones. It derives much of its syntax from C.

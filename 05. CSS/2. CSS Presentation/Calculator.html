@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link href="styles/calculator.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/calculator.ico" />
+</head>
+<body>
+    <form>
+        <nav>
+            <ul>
+                <li>View</li>
+                <li>Edit</li>
+                <li>Help</li>
+            </ul>
+        </nav>
+        <hr />
+        <input type="text" class="displ rounded" value="8854455" />
+    </form>
+    <form class="bitsfield rounded">
+        <div>
+            <div class="bit32">0000</div>
+            <div class="bit28">0000</div>
+            <div class="bit24">0000</div>
+            <div class="bit20">0000</div>
+            <div class="bit16">0000</div>
+            <div class="bit12">0000</div>
+            <div class="bit08">0000</div>
+            <div class="bit04">0000</div>
+        </div>
+        <div>
+            <div class="bit31">63</div><div class="bit15">47</div><div class="bit0">32</div>
+        </div>
+        <div>
+            <div class="bit32">0000</div>
+            <div class="bit28">0000</div>
+            <div class="bit24">1000</div>
+            <div class="bit20">0111</div>
+            <div class="bit16">0001</div>
+            <div class="bit12">1011</div>
+            <div class="bit08">1011</div>
+            <div class="bit04">0111</div>
+        </div>
+        <div><div class="bit31">31</div><div class="bit15">15</div><div class="bit0">0</div></div>
+    </form>
+    <div class="forms-aside">
+        <div>
+            <ul class="num-syst rounded">
+                <li><label><input type="radio" name="num" id="h" /> Hex</label></li>
+                <li><label><input type="radio" name="num" id="d" checked /> Dec</label></li>
+                <li><label><input type="radio" name="num" id="o" /> Oct</label></li>
+                <li><label><input type="radio" name="num" id="b" /> Bin</label></li>
+            </ul>
+        </div>
+        <div class="sec-block">
+            <ul class="num-syst rounded">
+                <li><label><input type="radio" name="word" id="q" checked /> Qword</label></li>
+                <li><label><input type="radio" name="word" id="dw" /> Dword</label></li>
+                <li><label><input type="radio" name="wordv" id="w" /> Word</label></li>
+                <li><label><input type="radio" name="word" id="bw" /> Byte</label></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div>
+            <div class="btn disabled"> </div>
+            <div class="btn">Mod</div>
+            <div class="btn disabled">A </div>
+            <div class="btn disabled">MC</div>
+            <div class="btn disabled">MR</div>
+            <div class="btn disabled">MS</div>
+            <div class="btn disabled">M+</div>
+            <div class="btn disabled">M-</div>
+        </div>
+
+        <div>
+            <div class="btn">(</div>
+            <div class="btn">)</div>
+            <div class="btn disabled">B</div>
+            <div class="btn">&larr;</div>
+            <div class="btn">CE</div>
+            <div class="btn">C</div>
+            <div class="btn">&plusmn;</div>
+            <div class="btn disabled">&radic;</div>
+        </div>
+
+        <div>
+            <div class="btn">RoL</div>
+            <div class="btn">RoR</div>
+            <div class="btn disabled">C</div>
+            <div class="btn calc-btn">7</div>
+            <div class="btn calc-btn">8</div>
+            <div class="btn calc-btn">9</div>
+            <div class="btn">/</div>
+            <div class="btn disabled">%</div>
+        </div>
+
+        <div>
+            <div class="btn">Or</div>
+            <div class="btn">Xor</div>
+            <div class="btn disabled">D</div>
+            <div class="btn calc-btn">4</div>
+            <div class="btn calc-btn">5</div>
+            <div class="btn calc-btn">6</div>
+            <div class="btn">*</div>
+            <div class="btn disabled">1/<span>x</span></div>
+        </div>
+
+        <div>
+            <div class="btn">Lsh</div>
+            <div class="btn">Rsh</div>
+            <div class="btn disabled">E</div>
+            <div class="btn calc-btn">1</div>
+            <div class="btn calc-btn">2</div>
+            <div class="btn calc-btn">3</div>
+            <div class="btn">-</div>
+            <div class="btn equal">=</div>
+        </div>
+
+        <div>
+            <div class="btn">Not</div>
+            <div class="btn">And</div>
+            <div class="btn disabled">F</div>
+            <div class="btn zero calc-btn">0</div>
+            <div class="btn disabled">.</div>
+            <div class="btn">+</div>
+        </div>
+    </div>
+
+</body>
+</html>

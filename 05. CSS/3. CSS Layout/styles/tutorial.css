@@ -1,0 +1,114 @@
+﻿body {
+    font-family: Consolas;
+    font-size: 13px;
+    background-color: #F2F2F2;
+}
+
+a {
+    color: #950D0B;
+}
+
+nav {
+    float: left;
+}
+
+    nav img {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+        nav ul li a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        nav ul li:first-child {
+            font-weight: bold;
+            color: #950D0B;
+        }
+
+button {
+    width: 100px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 3px;
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+.leftArrow {
+    margin-right: 20px;
+}
+
+.rightArrow {
+    margin-left: 20px;
+}
+
+section {
+    float: left;
+    width: 55%;
+    margin: 0 3px 0;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #868686;
+}
+
+    section article {
+        width: 100%;
+        text-align: left;
+        text-align: justify;
+        padding: 10px 0;
+    }
+
+#img-article > img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#img-article p {
+    font-weight: bold;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Arial Unicode MS';
+    font-size: 2em;
+}
+
+section > header {
+    border-bottom: 2px solid #929292;
+}
+
+section > footer {
+    border-bottom: 2px solid #929292;
+    border-top: 2px solid #929292;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin: 0 0 5px 0;
+    background-color: #929292;
+    color: #ffffff;
+    padding: 2px;
+}
+
+aside {
+    float: left;
+}
+
+    aside div {
+        margin: 1px;
+        padding-bottom: 10px;
+        border: 1px solid #868686;
+        display: block;
+        text-align: center;
+    }
+
+        aside div input, aside div a, aside div img {
+            margin: 5px;
+        }

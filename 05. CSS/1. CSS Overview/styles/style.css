@@ -1,0 +1,62 @@
+﻿h1, dl, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-align: left;
+}
+
+    p.name:before {
+        content: "•";
+        font-size: 50px;
+        line-height: 16px;
+        vertical-align: top;
+        color: #70B379;
+    }
+
+a, p {
+    text-decoration: none;
+    padding-bottom: 10px
+}
+
+.red {
+    color: #ED2B48;
+}
+
+.orange {
+    color: #E16925;
+}
+
+.yellow {
+    color: #D3D5A0;
+}
+
+dl {
+    background-color: #595959;
+    width: 450px;
+}
+
+dt {
+    font-size: 16px;
+    font-style: italic;
+    color: whitesmoke;
+    width: 160px;
+    float: left;
+    padding-left:5px
+}
+
+dd {
+    vertical-align: top;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-left: 160px;
+    color: #9ba7ab;
+}
+
+.title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 100;
+    color: #B2AC9C;
+    padding: 10px 5px;
+    width: 100%;
+}

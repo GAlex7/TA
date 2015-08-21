@@ -1,0 +1,4 @@
+fucking: 5
+prog: 4
+fuck: 1
+

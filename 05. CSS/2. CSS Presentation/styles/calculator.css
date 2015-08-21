@@ -1,0 +1,186 @@
+﻿body {
+    font-family: Arial, Consolas;
+    font-size: 12px;
+    color: rgba(30,57,91,1);
+    margin: 0;
+    padding: 0;
+    background: rgba(217,228,241,1);
+    width: 430px;
+}
+
+.rounded {
+    border-radius: 5px;
+    border: 1px solid #9CC;
+    background: linear-gradient(#E6EFFB,white);
+}
+
+nav ul {
+    margin: 0;
+    margin-top: 1px;
+}
+
+hr {
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 2px 5px;
+}
+
+li:first-letter {
+    text-decoration: underline;
+}
+
+nav li:hover {
+    border: 1px solid gray;
+    border-radius: 5px;
+    /*padding: 2px 5px;*/
+}
+
+nav {
+    margin: 0;
+    background: linear-gradient(white, lightgray);
+}
+
+.displ {
+    width: 400px;
+    /*height:50px;*/
+    margin: 10px 10px 3px;
+    padding: 10px 5px 5px;
+    font-size: 2em;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.bitsfield {
+    /*display:inline-block;*/
+    font-family: Consolas;
+    font-size: 1.2em;
+    width: 400px;
+    margin: 0 10px 0;
+    padding: 5px;
+    color: #05052D;
+    border-radius: 5px;
+    border: 1px solid #9CC;
+    background-color: #D9E4F1;
+}
+
+.bit32, .bit28, .bit24, .bit20, .bit16, .bit12, .bit08, .bit04 {
+    display: inline-block;
+    width: 43px;
+    text-align: center;
+}
+
+.bit31 {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.bit15 {
+    display: inline-block;
+    margin-left: 188px;
+}
+
+.bit0 {
+    display: inline-block;
+    margin-left: 124px;
+    width: 43px;
+    text-align: right;
+}
+
+.bit31, .bit15, .bit0 {
+    color: gray;
+}
+
+.forms-aside {
+    display: inline-block;
+    width: 85px;
+    vertical-align: top;
+}
+
+.radio-aside {
+    display: inline-block;
+}
+
+label {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="radio"] {
+    vertical-align: top;
+}
+
+.num-syst {
+    /*margin-left: 15px;*/
+    display: inline-block;
+    font-size: 12px;
+    list-style: none;
+    margin: 9px 0 0 10px;
+    padding: 3px 0 0;
+    width: 65px;
+    height: 99px;
+}
+
+.sec-block {
+    margin-top: -4px;
+}
+
+.num-syst li {
+    padding-top: 6px;
+    /*clear: both;*/
+    /*content: " ";*/
+}
+
+.controls {
+    display: inline-block;
+    margin-top: 5px;
+    /*width: 300px;*/
+    /*position: absolute;*/
+}
+
+.btn {
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    margin: 4px 0 0 2px;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+    font-weight:bold;
+    border-radius: 3px;
+    border: 1px solid #9CC;
+    background: -webkit-linear-gradient(top, rgba(246,250,254,1) 0%,rgba(230,237,245,1) 50%,rgba(213,224,237,1) 51%,rgba(215,226,239,1) 100%);
+}
+
+.zero {
+    width: 77px;
+}
+
+.equal {
+    display: inline-flexbox;
+    position: absolute;
+    margin-left: 5px;
+    height: 65px;
+}
+
+span {
+    font-family: Garamond;
+}
+
+.calc-btn {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,255,1)), color-stop(50%,rgba(247,251,255,1)), color-stop(51%,rgba(231,237,245,1)), color-stop(100%,rgba(231,237,245,1)));
+}
+
+.disabled {
+    background: none;
+}
+.btn:hover{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,244,233,1)), color-stop(49%,rgba(254,226,194,1)), color-stop(50%,rgba(255,207,106,1)), color-stop(100%,rgba(255,235,133,1)));
+}

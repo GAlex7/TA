@@ -1,0 +1,64 @@
+﻿div, h2, article, button, p {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 1.5em;
+}
+
+div {
+    width: 390px;
+    padding: 10px;
+    background-color: #EEE;
+    border-radius: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+button {
+    background-image: url("../images/button.png");
+    height: 24px;
+    color: white;
+    border: 2px outset darkred;
+    border-top-color:#E07271;
+}
+
+    button.listen {
+        width: 80px;
+    }
+
+    button.add {
+        width: 65px;
+    }
+
+    button:hover {
+        background-image: url("../images/button-hover.png");
+    }
+
+img {
+    width: 135px;
+    height: 86px;
+    border: 1px solid #9a9997;
+    float: left;
+    margin-right: 15px;
+}
+
+form {
+    float: right;
+}
+
+article {
+    margin: 35px 0 10px 0;
+    border: 1px solid #9a9997;
+    background: white;
+    padding: 15px;
+    overflow: hidden;
+}
