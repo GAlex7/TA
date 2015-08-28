@@ -25,7 +25,6 @@ function solve() {
         sortedStudents.reverse();
 
         _.each(sortedStudents, console.log);
-
     };
 }
 
