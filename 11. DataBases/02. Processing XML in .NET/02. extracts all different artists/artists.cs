@@ -1,4 +1,4 @@
-﻿namespace _02.extracts_all_different_artists
+﻿namespace ExtractsAllDifferentArtists
 {
     using System;
     using System.Collections.Generic;
