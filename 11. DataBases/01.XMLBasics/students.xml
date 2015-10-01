@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt" ?>
+<students xmlns:students="urn:telerikacademy.com">
+  <student>
+    <name>Pesho</name>
+    <sex>male</sex>
+    <birthDate>1950-01-01</birthDate>
+    <phone>0887654321</phone>
+    <email>pesho@abv.bg</email>
+    <course>CSharp</course>
+    <specialty>ITDev</specialty>
+    <facultyNumber>123</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>CSharp 1</name>
+        <tutor>Evlogi</tutor>
+        <score>470</score>
+      </exam>
+      <exam>
+        <name>CSharp 2</name>
+        <tutor>Doncho</tutor>
+        <score>380</score>
+      </exam>
+    </takenExams>
+  </student>
+
+  <student>
+    <name>Ivancho</name>
+    <sex>male</sex>
+    <birthDate>1991-12-31</birthDate>
+    <phone>0876543210</phone>
+    <email>ivancho@mail.bg</email>
+    <course>JS</course>
+    <specialty>FrontEnd</specialty>
+    <facultyNumber>234</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>JS OOP</name>
+        <tutor>Cuki</tutor>
+        <score>150</score>
+      </exam>
+      <exam>
+        <name>CSS</name>
+        <tutor>Ivo</tutor>
+        <score>220</score>
+      </exam>
+    </takenExams>
+  </student>
+</students>
