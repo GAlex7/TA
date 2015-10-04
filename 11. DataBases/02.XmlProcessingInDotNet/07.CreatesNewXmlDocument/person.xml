@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<persons>
+  <person>
+    <name>Pesho Peshev</name>
+    <phone>+359876543210</phone>
+    <address>Sofia</address>
+  </person>
+  <person>
+    <name>Gosho Gohev</name>
+    <phone>+359898765432</phone>
+    <address>Pernik</address>
+  </person>
+</persons>
