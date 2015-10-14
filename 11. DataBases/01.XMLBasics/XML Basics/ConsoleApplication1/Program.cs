@@ -11,6 +11,7 @@ namespace ConsoleApplication1
             XmlDocument doc = new XmlDocument();
             doc.Load("../../../students.xml");
             Console.WriteLine("Loaded XML document:");
+
             Console.WriteLine(doc.OuterXml);
             Console.WriteLine();
 
