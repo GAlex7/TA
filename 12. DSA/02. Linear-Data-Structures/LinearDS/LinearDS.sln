@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ReverseNumbers", "2.Rever
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.SortsInIncreasingOrder", "3.SortsInIncreasingOrder\3.SortsInIncreasingOrder.csproj", "{86146B55-FDC2-483B-9DC2-6301F30D9269}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.LongestSubsequenceOfEquals", "4.LongestSubsequenceOfEquals\4.LongestSubsequenceOfEquals.csproj", "{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{86146B55-FDC2-483B-9DC2-6301F30D9269}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86146B55-FDC2-483B-9DC2-6301F30D9269}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86146B55-FDC2-483B-9DC2-6301F30D9269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
