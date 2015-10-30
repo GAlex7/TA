@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.SortsInIncreasingOrder", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.LongestSubsequenceOfEquals", "4.LongestSubsequenceOfEquals\4.LongestSubsequenceOfEquals.csproj", "{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.RemovesAllNegativeNumbers", "5.RemovesAllNegativeNumbers\5.RemovesAllNegativeNumbers.csproj", "{71068F3F-A1A1-42D1-BCBD-AA747D61D9DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.RemovesNumbersOccurOddTimes", "6.RemovesNumbersOccurOddTimes\6.RemovesNumbersOccurOddTimes.csproj", "{8B413372-F4A6-443E-98A4-555C5F473BC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71068F3F-A1A1-42D1-BCBD-AA747D61D9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71068F3F-A1A1-42D1-BCBD-AA747D61D9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71068F3F-A1A1-42D1-BCBD-AA747D61D9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71068F3F-A1A1-42D1-BCBD-AA747D61D9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B413372-F4A6-443E-98A4-555C5F473BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B413372-F4A6-443E-98A4-555C5F473BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B413372-F4A6-443E-98A4-555C5F473BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B413372-F4A6-443E-98A4-555C5F473BC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

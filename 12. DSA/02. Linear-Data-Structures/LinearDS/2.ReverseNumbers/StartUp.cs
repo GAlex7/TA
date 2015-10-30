@@ -17,8 +17,7 @@
 
             foreach (var number in reversedNumbers)
             {
-                Console.Write(number);
-                Console.Write(" ");
+                Console.Write("{0} ", number);
             }
 
             Console.WriteLine();
