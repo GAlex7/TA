@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.SumAndAverage", "1.SumAndAverage\1.SumAndAverage.csproj", "{A7089487-F23D-488F-AD16-5A304387CDF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SumAndAverage", "1.SumAndAverage\01.SumAndAverage.csproj", "{A7089487-F23D-488F-AD16-5A304387CDF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ReverseNumbers", "2.ReverseNumbers\2.ReverseNumbers.csproj", "{CE475C17-36CA-4E46-9F9D-D17AC641341D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ReverseNumbers", "2.ReverseNumbers\02.ReverseNumbers.csproj", "{CE475C17-36CA-4E46-9F9D-D17AC641341D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.SortsInIncreasingOrder", "3.SortsInIncreasingOrder\3.SortsInIncreasingOrder.csproj", "{86146B55-FDC2-483B-9DC2-6301F30D9269}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SortsInIncreasingOrder", "3.SortsInIncreasingOrder\03.SortsInIncreasingOrder.csproj", "{86146B55-FDC2-483B-9DC2-6301F30D9269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.LongestSubsequenceOfEquals", "4.LongestSubsequenceOfEquals\4.LongestSubsequenceOfEquals.csproj", "{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.LongestSubsequenceOfEquals", "4.LongestSubsequenceOfEquals\04.LongestSubsequenceOfEquals.csproj", "{6E6462EC-7AE0-4EC2-A5FA-856FE9DEB7B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.RemovesAllNegativeNumbers", "5.RemovesAllNegativeNumbers\5.RemovesAllNegativeNumbers.csproj", "{71068F3F-A1A1-42D1-BCBD-AA747D61D9DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.RemovesAllNegativeNumbers", "5.RemovesAllNegativeNumbers\05.RemovesAllNegativeNumbers.csproj", "{71068F3F-A1A1-42D1-BCBD-AA747D61D9DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.RemovesNumbersOccurOddTimes", "6.RemovesNumbersOccurOddTimes\6.RemovesNumbersOccurOddTimes.csproj", "{8B413372-F4A6-443E-98A4-555C5F473BC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.RemovesNumbersOccurOddTimes", "6.RemovesNumbersOccurOddTimes\06.RemovesNumbersOccurOddTimes.csproj", "{8B413372-F4A6-443E-98A4-555C5F473BC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.HowManyTimes", "7.HowManyTimes\7.HowManyTimes.csproj", "{698D65C8-3B76-415B-8979-9633EC6015C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.HowManyTimes", "7.HowManyTimes\07.HowManyTimes.csproj", "{698D65C8-3B76-415B-8979-9633EC6015C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.SequenceMajorant", "8.SequenceMajorant\8.SequenceMajorant.csproj", "{978539E4-F369-4121-813E-10AA7FE5D687}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.SequenceMajorant", "8.SequenceMajorant\08.SequenceMajorant.csproj", "{978539E4-F369-4121-813E-10AA7FE5D687}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.PrintFirst50Members", "9.PrintFirst50Members\9.PrintFirst50Members.csproj", "{9755ADE3-0A24-4ACD-8D89-08A6EBE77242}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PrintFirst50Members", "9.PrintFirst50Members\09.PrintFirst50Members.csproj", "{9755ADE3-0A24-4ACD-8D89-08A6EBE77242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ShortestSequenceOfOperations", "10.ShortestSequenceOfOperations\10.ShortestSequenceOfOperations.csproj", "{920AA9C0-50F5-47B1-8F29-5C6FD6533B78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{9755ADE3-0A24-4ACD-8D89-08A6EBE77242}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9755ADE3-0A24-4ACD-8D89-08A6EBE77242}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9755ADE3-0A24-4ACD-8D89-08A6EBE77242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920AA9C0-50F5-47B1-8F29-5C6FD6533B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920AA9C0-50F5-47B1-8F29-5C6FD6533B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920AA9C0-50F5-47B1-8F29-5C6FD6533B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920AA9C0-50F5-47B1-8F29-5C6FD6533B78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
