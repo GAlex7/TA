@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Counts", "Counts\01.Counts.csproj", "{0DFA32C7-A9D7-4C1B-96E0-4F170927EA93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.OddNumberOfTimes", "OddNumberOfTimes\02.OddNumberOfTimes.csproj", "{5FDB3719-7014-44F7-B725-31F10B94F9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordCount", "WordCount\03.WordCount.csproj", "{6C08BD44-E95E-40A3-87E1-129FF4F7AD7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DFA32C7-A9D7-4C1B-96E0-4F170927EA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFA32C7-A9D7-4C1B-96E0-4F170927EA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFA32C7-A9D7-4C1B-96E0-4F170927EA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFA32C7-A9D7-4C1B-96E0-4F170927EA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDB3719-7014-44F7-B725-31F10B94F9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDB3719-7014-44F7-B725-31F10B94F9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDB3719-7014-44F7-B725-31F10B94F9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDB3719-7014-44F7-B725-31F10B94F9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C08BD44-E95E-40A3-87E1-129FF4F7AD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C08BD44-E95E-40A3-87E1-129FF4F7AD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C08BD44-E95E-40A3-87E1-129FF4F7AD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C08BD44-E95E-40A3-87E1-129FF4F7AD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
