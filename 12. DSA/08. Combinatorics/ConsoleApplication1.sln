@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbits", "ConsoleApplicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinomOfPower", "ConsoleApplication2\BinomOfPower.csproj", "{D2DC8C78-006E-4B8C-BF16-81656EC15E58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryPasswords", "ConsoleApplication3\BinaryPasswords.csproj", "{D75B8AC4-9EE0-4174-8317-88FF5935162E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D2DC8C78-006E-4B8C-BF16-81656EC15E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2DC8C78-006E-4B8C-BF16-81656EC15E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2DC8C78-006E-4B8C-BF16-81656EC15E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75B8AC4-9EE0-4174-8317-88FF5935162E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75B8AC4-9EE0-4174-8317-88FF5935162E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75B8AC4-9EE0-4174-8317-88FF5935162E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75B8AC4-9EE0-4174-8317-88FF5935162E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
