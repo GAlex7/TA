@@ -3,29 +3,19 @@
     using System;
     using System.Collections.Generic;
     using System.IO;
+    using System.Linq;
 
     public class Program
     {
         public static void Main()
         {
-            var input = @"9
-2
-2
-44
-2
-2
-2
-444
-2
-2";
-            Console.SetIn(new StringReader(input));
-
-            var n = int.Parse(Console.ReadLine());
+            var line = Console.ReadLine();
+            var numbs = line.Split(' ').Select(int.Parse).ToList();
             var dict = new Dictionary<int, int>();
 
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < numbs.Count - 1; i++)
             {
-                var current = int.Parse(Console.ReadLine());
+                var current = numbs[i] + 1;
                 if (!dict.ContainsKey(current))
                 {
                     dict.Add(current, 0);
@@ -37,10 +27,16 @@
             var result = 0;
             foreach (var item in dict)
             {
-                var x = item.Value < 3 ? 1 : 1 + item.Value / (item.Key + 1);
-                //Console.WriteLine("{0} x = {1}",item.Key, x);
-                result += x * (item.Key + 1);
+                int groups = item.Value / item.Key;
+
+                if (item.Value % item.Key > 0)
+                {
+                    groups++;
+                }
+
+                result += groups * item.Key;
             }
+
             Console.WriteLine(result);
         }
     }
